@@ -14,8 +14,6 @@ public class secondtest {
     @BeforeMethod
     public void beforeM() throws IOException, InterruptedException {
 
-
-
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.cicod.com/login");
